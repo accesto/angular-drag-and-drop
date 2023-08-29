@@ -1,0 +1,9 @@
+<h2>To do</h2>
+<div class="container" cdkDropList id="todo" [cdkDropListConnectedTo]="['done']" [cdkDropListData]="todo" (cdkDropListDropped)="drop($event)">
+  <div class="item" cdkDrag *ngFor="let item of todo">{{item}}</div>
+</div>
+
+<h2>Done</h2>
+<div class="container" cdkDropList id="done" [cdkDropListConnectedTo]="['todo']" [cdkDropListData]="done" (cdkDropListDropped)="drop($event)">
+  <div class="item" cdkDrag *ngFor="let item of done">{{item}}</div>
+</div>

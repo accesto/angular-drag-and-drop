@@ -1,0 +1,28 @@
+body,div, h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the value as needed for the spacing between stacked elements */
+  }
+  
+  .container .item {
+    width: 50%;
+    background-color: #6495ED;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: move;
+    padding: 1em;
+    transition: transform 0.2s ease-in-out; /* Add a transition for smooth animation */
+  }
+  
+  .container .item.cdk-drag-preview {
+    opacity: 0.8; /* Adjust the opacity of the dragged element preview */
+    background-color: #FFA500; /* Customize the background color of the dragged element preview */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow to the dragged element preview */
+  }
