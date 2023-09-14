@@ -1,27 +1,11 @@
-# AngularDragDropTutorial
+Link to the article: https://accesto.com/blog/drag-and-drop-angular/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+![Drag over](/drag-over-angular.gif)
 
-## Development server
+![Drag start](/drag-start-angular.gif)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Drag drop](/drop-drag-angular.gif)
 
-## Code scaffolding
+In this step-by-step tutorial, we'll demystify the process of creating drag and drop functionality in Angular for draggable components. Starting with the very basics, we'll walk you through how to make elements draggable, add custom drag handles, sort elements within a list, and even drag items across different containers. Each step will include detailed explanations and code samples to ensure you can follow along, no matter your experience level with Angular.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+By the end of this guide, you'll have mastered the skills necessary to incorporate dynamic drag and drop into your Angular applications for draggable items, elevating the user experience and expanding your toolkit as a developer. So let's dive in and explore the world of drag and drop with Angular!
